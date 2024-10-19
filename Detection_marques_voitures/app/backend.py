@@ -7,7 +7,8 @@ from PIL import Image
 app = FastAPI()
 
 # Charger le modèle au démarrage de l'application
-model = load_model("../model/model.h5", compile=False)
+#model = load_model("../model/model.h5", compile=False)
+model = load_model("../model.h5", compile=False)
 
 # Liste des noms de classes prédites par le modèle
 CLASS_NAMES = ['hyundai',
