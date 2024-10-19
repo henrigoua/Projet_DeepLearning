@@ -1,0 +1,8 @@
+tensorflow==2.5.0                # Pour le modèle CNN et l'entraînement avec TensorFlow
+fastapi                          # Pour créer une API REST pour déployer le modèle
+uvicorn                          # Serveur ASGI pour exécuter l'API FastAPI
+python-multipart                 # Pour gérer le téléchargement de fichiers via l'API (ex. images)
+pillow                           # Pour la manipulation des images (lecture, transformation, etc.)
+tensorflow-serving-api==2.5.0    # Pour l'intégration de TensorFlow Serving et déploiement de modèles
+matplotlib                       # Pour visualiser les résultats et les données
+numpy                            # Pour la manipulation des tableaux multidimensionnels et calculs scientifiques
